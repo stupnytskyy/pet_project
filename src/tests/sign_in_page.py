@@ -1,6 +1,6 @@
 
-from objects import home_page as home_page
-from objects import base_page as base_page
+from src.objects import home_page
+from src.objects import base_page
 import time
 
 
