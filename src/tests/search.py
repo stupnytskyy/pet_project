@@ -7,7 +7,6 @@ import base_page
 # from src.objects import base_page
 import time
 
-time.sleep(10)
 home_page.click_sign_in_button()
 home_page.type_email()
 home_page.click_next_button()
