@@ -12,13 +12,13 @@ driver.get('https://www.bing.com/')
 
 def click_button (button_name):
     try:
-        WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, button_name))).click()
+        WebDriverWait(driver, 15).until(EC.element_to_be_clickable((By.XPATH, button_name))).click()
     except:
         raise NoSuchElementException
 
 def type_text (field_name, text):
     try:
-        WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, field_name)))
+        WebDriverWait(driver, 15).until(EC.visibility_of_element_located((By.XPATH, field_name)))
         field = driver.find_element(By.XPATH, field_name)
         field.send_keys(text)
     except:
