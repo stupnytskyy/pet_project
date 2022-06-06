@@ -1,6 +1,6 @@
 
 import sys
-sys.path.append('/Users/kevin/PycharmProjects/Bing/src/objects')
+sys.path.append('./src/objects')
 import home_page
 import base_page
 # from src.objects import home_page

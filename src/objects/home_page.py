@@ -1,7 +1,7 @@
 
 import sys
-sys.path.append('/Users/kevin/PycharmProjects/Bing/src/objects')
-sys.path.append('/Users/kevin/PycharmProjects/Bing/src/locators')
+sys.path.append('./src/objects')
+sys.path.append('./src/locators')
 import locators
 import base_page
 
